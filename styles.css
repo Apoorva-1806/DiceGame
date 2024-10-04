@@ -1,0 +1,58 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #DFD3C3;
+}
+
+h1 {
+  margin: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #C5705D;
+}
+
+p {
+  font-size: 2rem;
+  color: #C5705D;
+  font-family: cursive;
+}
+
+img {
+  width: 50%;
+}
+
+.newGameButton{
+  height: 50px;
+  margin:auto;
+  text-align: center;
+  position: relative;
+  top: 55px;
+}
+
+#newRoll {
+  height: 40px;
+  width:100px;
+  font-size: 15px;
+  border-radius: 10px;
+  color: #C5705D;
+  background-color: #f0f0f0; 
+  border: 2px solid #C5705D; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#newRoll:hover {
+  background-color: #C5705D; 
+  color: white; 
+}
